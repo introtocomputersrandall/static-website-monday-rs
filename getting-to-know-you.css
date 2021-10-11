@@ -3,3 +3,19 @@ header { text-align:center;background-color: gold; color:purple;
 h1 { text-align: center;
     }
 h2 { color:gold; background-color: purple; text-align: center; font-weight:bold;}
+
+div {
+    width: 100px;
+    height: 100px;
+    background: gold;
+    transition: width 3s;
+    transition-delay: 1s;
+  }
+  
+  #div2 {transition-timing-function: ease;}
+  div:hover {
+    width: 300px;
+  }
+
+  
+
